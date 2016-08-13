@@ -1,6 +1,6 @@
 var exports = module.exports;
 
-var Account = require('../../../models/account').Model;
+var Account = require('../../models/account').Model;
 
 exports.get = function(req, res){
   res.json({

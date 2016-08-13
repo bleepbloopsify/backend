@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+/** Get environment variables */
+try{
+  require('./env')();
+}catch(err){
+  console.log('I recommend you try making an env file');
+}
+
+var app = require('./app');
+app.listen('../index', process.env.PORT || 3002);

@@ -11,10 +11,12 @@
     "mongoose": "^4.5.9",
     "path": "^0.12.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodejs ./bin/start"
+    "start": "nodejs ./bin/start"
   },
   "author": "",
   "license": "ISC"

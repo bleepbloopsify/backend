@@ -7,7 +7,7 @@ module.exports = function(app) {
     mongoosejs.com
     This is the mongodb driver - offers a beautiful array of functionality
     Also allows for schema */
-  require('mongoose').createConnection(process.env.MONGO_DB_URL || "mongodb://localhost:27017/framework");
+  require('mongoose').connect(process.env.MONGO_DB_URL || "mongodb://localhost:27017/framework");
   /* Morgan is the logger
     prints errors and stuff to the Terminal
     also has nice colors*/
